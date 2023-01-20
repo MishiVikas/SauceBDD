@@ -1,5 +1,6 @@
 package stepsClass;
 
+import org.apache.hc.core5.http2.hpack.HPackDecoder;
 import org.junit.Assume;
 import org.openqa.selenium.WebDriver;
 import PagesPOM.LoginPage;
@@ -9,10 +10,14 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import utils.PropertyReaders;
 
+/*
+ * new changes
+ * 
+ */
 public class LoginStep extends DriverFactory
 {
 
-    LoginPage login = new LoginPage(DriverFactory.getDriver());; 
+    LoginPage login = new LoginPage(DriverFactory.getDriver());
     PropertyReaders prop = new PropertyReaders();
     DriverFactory df = new DriverFactory();
    
@@ -54,7 +59,7 @@ public void user_is_on_home_page()
 @When("user is at home page")
 public void user_is_at_home_page() 
 {
-	System.out.println(" ");
+	
 }
 
 
