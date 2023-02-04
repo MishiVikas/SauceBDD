@@ -1,36 +1,36 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "9b13fce0-9fd4-4993-bb3d-118e838c1aaa",
-    "feature": "Sauce_d checking",
-    "scenario": "Add all products to cart",
-    "start": 1674727130853,
-    "group": 1,
-    "content": "",
-    "tags": "@regression,",
-    "end": 1674727135493,
-    "className": "passed"
-  },
-  {
-    "id": "8f84c598-9fed-4e7a-ab62-b29917417de0",
+    "id": "0e7f4d5b-57eb-4c3d-b5c7-0cdcae8e0feb",
     "feature": "Sauce_d checking",
     "scenario": "Add bag product to cart",
-    "start": 1674727115240,
+    "start": 1675353420079,
     "group": 1,
     "content": "",
     "tags": "@smoke,",
-    "end": 1674727130831,
+    "end": 1675353437506,
     "className": "passed"
   },
   {
-    "id": "57bca099-7998-40d5-9cdf-18fbfe507440",
+    "id": "44651923-b5ff-463f-a17f-d52d1cb7a43d",
     "feature": "Sauce_d checking",
     "scenario": "order bike light",
-    "start": 1674727135519,
+    "start": 1675353442574,
     "group": 1,
     "content": "",
     "tags": "@smoke,@regression,",
-    "end": 1674727140710,
+    "end": 1675353447943,
+    "className": "passed"
+  },
+  {
+    "id": "6ba16b6d-e120-484c-ab13-c7e0ac531f79",
+    "feature": "Sauce_d checking",
+    "scenario": "Add all products to cart",
+    "start": 1675353437541,
+    "group": 1,
+    "content": "",
+    "tags": "@regression,",
+    "end": 1675353442522,
     "className": "passed"
   }
 ]);
