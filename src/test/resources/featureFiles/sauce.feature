@@ -16,7 +16,7 @@ Feature: Sauce_d checking
     
     @Regression
     Scenario: Add all products to cart
-    Given user is on home page 
+    Given user is at home page 
     When user clicks on add to cart button one by one
     Then all product should be added in cart
 
