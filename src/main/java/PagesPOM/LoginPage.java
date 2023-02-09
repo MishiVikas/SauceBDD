@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage 
 {
-	private WebDriver driver ;
+	private WebDriver driver;
 	
 	By username = By.xpath("//input[@id = 'user-name']");
 	By pass = By.xpath("//input[@name = 'password']");
