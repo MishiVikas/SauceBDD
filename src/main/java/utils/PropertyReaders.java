@@ -12,8 +12,7 @@ public class PropertyReaders
 	
 	 public static String init_prop(String key)
 	 {
-		
-					
+							
 		try {
 			reader = new FileReader("./src/test/resources/propertiesFiles/config.properties");
 		} catch (FileNotFoundException e) {
