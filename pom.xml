@@ -7,12 +7,12 @@
 	<properties>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<<<<<<< HEAD
+
 		<junit.version>4.13.1</junit.version>
 		<cucumber.version>6.9.0</cucumber.version>
 		<maven.surefire.version>2.22.2</maven.surefire.version>
-=======
->>>>>>> master
+
+
 
 	</properties>
 
@@ -86,7 +86,7 @@
 	<build>
 		<plugins>
 
-<<<<<<< HEAD
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -123,7 +123,7 @@
 				<forkCount>2</forkCount> <reuseForks>true</reuseForks> <reportsDirectory>${project.build.directory}/failsafe-reports_${surefire.forkNumber}</reportsDirectory> 
 				</configuration> </execution> </executions> </plugin> -->
 
-=======
+
  <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -149,7 +149,7 @@
 			
 
 			
->>>>>>> master
+
 
 		</plugins>
 	</build>
